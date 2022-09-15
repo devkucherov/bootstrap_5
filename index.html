@@ -47,7 +47,39 @@
             <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
           </div>
           <div class="modal-body">
-            <p>Господа, выбранный нами инновационный путь говорит о возможностях укрепления моральных ценностей.</p>
+            <form action="">
+              <div class="row mb-3">
+                <label for="inputEmail" class="col-sm-2 col-form-label">Email</label>
+                <div class="col-sm-10"> 
+                  <input type="email" class="form-control" id="inputEmail">
+                </div>
+              </div>
+              <div class="row mb-3">
+                <label for="inputPass" class="col-sm-2 col-form-label">Password</label>
+                <div class="col-sm-10"> 
+                  <input type="password" class="form-control" id="inputPass">
+                </div>
+              </div>
+              <fieldset>
+                <div class="row mb-3">
+                  <legend class="col-form-label col-sm-2">Radio</legend>
+                  <div class="col-sm-10">
+                    <div class="form-check">
+                      <input type="radio" class="form-check-input" name="radios" id="radios1" value="option1" checked>
+                      <label for="radios1" class="form-check-label">Radio1</label>
+                    </div>
+                    <div class="form-check">
+                      <input type="radio" class="form-check-input" name="radios" id="radios2" value="option2" checked>
+                      <label for="radios2" class="form-check-label">Radio2</label>
+                    </div>
+                    <div class="form-check">
+                      <input type="radio" class="form-check-input" name="radios" id="radios3" value="option3" checked>
+                      <label for="radios3" class="form-check-label">Radio3</label>
+                    </div>
+                  </div>
+                </div>
+              </fieldset>
+            </form>
           </div>
           <div class="modal-footer">
             <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Закрыть</button>
