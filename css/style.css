@@ -1,7 +1,7 @@
 #hero {
   width: 100%;
   min-height: 100vh;
-  background: url(../image/img1.jpg);
+  background: url(../image/img1.jpg) fixed center center;
   background-size: cover;
   position: relative;
   padding-bottom: 15px;
@@ -64,4 +64,35 @@
   .icon-box {
     padding: 10px;
   }
+}
+
+.about li {
+  list-style: none;
+}
+
+.cta {
+  background: url(../image/img1.jpg) fixed center center;
+  padding: 80px 0;
+  color: #fff;
+}
+.cta h3 {
+  font-weight: 700;
+  font-size: 28px;
+}
+.cta-btn {
+  font-weight: 600;
+  font-size: 16px;
+  letter-spacing: 1px;
+  display: inline-block;
+  padding: 8px 28px;
+  border: 2px solid #fff;
+  border-radius: 4px;
+  color: #fff;
+  margin-top: 10px;
+  text-decoration: none;
+}
+.cta-btn:hover {
+  background-color: #ffd700;
+  border-color: #ffd700;
+  color: #151515;
 }
